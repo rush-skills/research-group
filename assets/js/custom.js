@@ -78,7 +78,6 @@
     };
 
     $('#everything').render(details,directives);
-    $('.collapse').collapse();
 
     var list = $(".news div.news-inner");
     list.parent(".news").append(list.get().reverse());
