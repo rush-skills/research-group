@@ -6,7 +6,7 @@
       $.ajax({
           'async': false,
           'global': false,
-          'url': "/data.json",
+          'url': "./../../data.json",
           'dataType': "json",
           'success': function (data) {
               json = data;
