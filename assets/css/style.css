@@ -10,6 +10,8 @@
 	Based on SOLID - Bootstrap 3 Theme by Carlos Alvarez(http://alvarez.is)
 
 ################################################################# */
+
+@charset 'UTF-8';
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,900);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
@@ -18,6 +20,7 @@
 @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 @import url(animate.css);
 @import url(slick.css);
+
 /*	################################################################
 	1. GENERAL STRUCTURES
 ################################################################# */
@@ -150,51 +153,17 @@ a:focus {
   background-color: #00b3fe;
   border-color: #00b3fe;
 }
-
-.dmbutton:hover,
-.dmbutton:active,
-.dmbutton:focus{
-	color: #ffffff;
-	background-color: #222222;
-	border-color: #ffffff;
-}
-.dmbutton {
-	background:rgba(0, 0, 0, 0);
-	border: 1px solid #ffffff;
-	color: #ffffff;
-	-webkit-border-radius: 2px;
-	border-radius: 2px;
-	padding-top: 1.025rem;
-	padding-right: 2.25rem;
-	letter-spacing:0.85px;
-	padding-bottom: 1.0875rem;
-	padding-left: 2.25rem;
-	font-size: 1.55rem;
-	cursor: pointer;
-	font-weight: normal;
-	line-height: normal;
-	margin: 0 0 1.25rem;
-	text-decoration: none;
-	text-align: center;
-	display: inline-block;
-	-webkit-transition: background-color 300ms ease-out;
-	-moz-transition: background-color 300ms ease-out;
-	transition: background-color 300ms ease-out;
-	-webkit-appearance: none;
-	font-weight: normal !important;
-}
-
 .mtb {
 	margin-top: 40px;
-	margin-bottom: 80px;
+	margin-bottom: 40px;
 }
 
 .mb {
-	margin-bottom: 60px;
+	margin-bottom: 40px;
 }
 
 .mt {
-	margin-top: 60px;
+	margin-top: 40px;
 }
 
 .hline {
@@ -211,8 +180,8 @@ a:focus {
 
 #headerwrap {
 	background-color: #00b3fe;
-	min-height: 250px;
-	padding-top: 100px;
+	min-height: 200px;
+	padding-top: 80px;
 	padding-bottom: 0px;
 	text-align: center;
 }
@@ -230,19 +199,6 @@ a:focus {
 #headerwrap .img-responsive {
 	margin: 0 auto;
 }
-
-/* Services Wrap */
-#service {
-	margin-top: 100px;
-	margin-bottom: 80px;
-}
-
-#service i {
-	color: #00b3fe;
-	font-size: 60px;
-	padding: 15px;
-}
-
 
 /* Footer */
 #footerwrap {
@@ -423,107 +379,10 @@ csmall2 {
 }
 
 /* SLICK THEME */
-@charset 'UTF-8';
 /* Slider */
 .slick-loading .slick-list
 {
     background: #fff url('./ajax-loader.gif') center center no-repeat;
-}
-
-/* Arrows */
-.slick-prev,
-.slick-next
-{
-    font-size: 0;
-    line-height: 0;
-
-    position: absolute;
-    top: 50%;
-
-    display: block;
-
-    width: 20px;
-    height: 20px;
-    margin-top: -10px;
-    padding: 0;
-
-    cursor: pointer;
-
-    color: transparent;
-    border: none;
-    outline: none;
-    background: transparent;
-}
-.slick-prev:hover,
-.slick-prev:focus,
-.slick-next:hover,
-.slick-next:focus
-{
-    color: transparent;
-    outline: none;
-    background: transparent;
-}
-.slick-prev:hover:before,
-.slick-prev:focus:before,
-.slick-next:hover:before,
-.slick-next:focus:before
-{
-    opacity: 1;
-}
-.slick-prev.slick-disabled:before,
-.slick-next.slick-disabled:before
-{
-    opacity: .25;
-}
-
-.slick-prev:before,
-.slick-next:before
-{
-    font-family: 'slick';
-    font-size: 20px;
-    line-height: 1;
-
-    opacity: .75;
-    color: white;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.slick-prev
-{
-    left: -25px;
-}
-[dir='rtl'] .slick-prev
-{
-    right: -25px;
-    left: auto;
-}
-.slick-prev:before
-{
-    content: '←';
-}
-[dir='rtl'] .slick-prev:before
-{
-    content: '→';
-}
-
-.slick-next
-{
-    right: -25px;
-}
-[dir='rtl'] .slick-next
-{
-    right: auto;
-    left: -25px;
-}
-.slick-next:before
-{
-    content: '→';
-}
-[dir='rtl'] .slick-next:before
-{
-    content: '←';
 }
 
 /* Dots */
@@ -532,85 +391,3 @@ csmall2 {
     margin-bottom: 30px;
 }
 
-.slick-dots
-{
-    position: absolute;
-    bottom: -45px;
-
-    display: block;
-
-    width: 100%;
-    padding: 0;
-
-    list-style: none;
-
-    text-align: center;
-}
-.slick-dots li
-{
-    position: relative;
-
-    display: inline-block;
-
-    width: 20px;
-    height: 20px;
-    margin: 0 5px;
-    padding: 0;
-
-    cursor: pointer;
-}
-.slick-dots li button
-{
-    font-size: 0;
-    line-height: 0;
-
-    display: block;
-
-    width: 20px;
-    height: 20px;
-    padding: 5px;
-
-    cursor: pointer;
-
-    color: transparent;
-    border: 0;
-    outline: none;
-    background: transparent;
-}
-.slick-dots li button:hover,
-.slick-dots li button:focus
-{
-    outline: none;
-}
-.slick-dots li button:hover:before,
-.slick-dots li button:focus:before
-{
-    opacity: 1;
-}
-.slick-dots li button:before
-{
-    font-family: 'slick';
-    font-size: 6px;
-    line-height: 20px;
-
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 20px;
-    height: 20px;
-
-    content: '•';
-    text-align: center;
-
-    opacity: .25;
-    color: black;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-.slick-dots li.slick-active button:before
-{
-    opacity: .75;
-    color: black;
-}
