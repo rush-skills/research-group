@@ -2,21 +2,24 @@
   $(document).ready(function () {
     // var details = require('/data.json');
     var details = (function() {
-        var json = null;
-        $.ajax({
-            'async': false,
-            'global': false,
-            'url': "/data.json",
-            'dataType': "json",
-            'success': function (data) {
-                json = data;
-            }
-        });
-        return json;
+      var json = null;
+      $.ajax({
+          'async': false,
+          'global': false,
+          'url': "/data.json",
+          'dataType': "json",
+          'success': function (data) {
+              json = data;
+          }
+      });
+      return json;
     })();
 
-    //till here the variable stores the content of the website in form of json, which will be a different file in future. 
+    //UPDATE: Now data stored in /data.json.
     // so any changes made are refleted in the website.
+    labDecorator = function() {
+        "<a class='btn btn-info' href='" + this.lab + "'>LAB</a>";
+    };
     var directives = {
       news: {
         url: {
@@ -40,6 +43,15 @@
         image: {
           src: function(params) {
             return this.image;
+          }
+        },
+        lab: {
+          html: function(params){
+            if(this.lab)
+              return "<a class=\"btn btn-info lab-button\" href=\"" + this.lab + "\">LAB</a>";
+            else
+              return "";
+
           }
         }
       },
@@ -68,20 +80,27 @@
     $('#everything').render(details,directives);
     $('.collapse').collapse();
 
-    $(document).ready(function () {
-      $('.news').first().slick(
-        {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 500,
-          vertical: true,
-          dots: false,
-          arrows: false,
-          pauseOnHover: false
-        }
-      );
-    });
+    var list = $(".news div.news-inner");
+    list.parent(".news").append(list.get().reverse());
+
+    var list2 = $(".news div.news-page-inner");
+    list2.parent(".news").append(list2.get().reverse());
+
+    var lis = $(".news div.news-inner");
+    var len=lis.length;
+    lis.slice(5,len).remove();
+    $('.news').first().slick(
+      {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 500,
+        vertical: true,
+        dots: false,
+        arrows: false,
+        pauseOnHover: false
+      }
+    );
     $("#loading").fadeOut(500);
   });
 })(jQuery);

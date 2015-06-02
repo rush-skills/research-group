@@ -186,7 +186,7 @@ a:focus {
 	text-align: center;
 }
 
-#headerwrap h3, h5 {
+#headerwrap h3,#headerwrap  h5 {
 	color: white;
 	font-weight: 400;
 }
@@ -283,7 +283,14 @@ csmall2 {
 	margin: 2px;
 	border: 1px solid #ccc;
 }
-
+.student {
+	padding: 2px;
+	margin: 2px;
+	border: 1px solid #ccc;
+}
+.lab-button{
+	margin-top: 10px;
+}
 .panel-custom > .panel-heading,.panel-custom > .panel-heading > a{
 	background: #00b3fe;
 	color: #fff;
@@ -291,8 +298,23 @@ csmall2 {
 .panel {
   border: 1px solid #ccc;
 }
-
-
+.news-page-inner{
+	padding: 2px;
+	margin: 25px;
+	border: 1px solid #ccc;
+}
+.news-page-inner h4{
+	text-align: left;
+	padding-left: 20px;
+}
+.news-page-inner h5{
+	text-align: right;
+	padding-right: 20px;
+}
+.news-page-inner p{
+	text-align: justify;
+	padding: 20px;
+}
 /* LOADER */
 #loading{
 	background-color: #00b3fe;

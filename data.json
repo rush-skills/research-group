@@ -5,19 +5,68 @@
   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   "motivation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   "news": [
-    {"title": "Sample News 1", "url": "http://google.com"},
-    {"title": "Sample News 2", "url": "http://google.com"},
-    {"title": "Sample News 3", "url": "http://google.com"},
-    {"title": "Sample News 4", "url": "http://google.com"},
-    {"title": "Sample News 5", "url": "http://google.com"},
-    {"title": "Sample News 6", "url": "http://google.com"}
+    {
+      "title": "Sample News 1",
+      "url": "http://google.com",
+      "date": "01/06/2015",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium."
+    },
+    {
+      "title": "Sample News 2",
+      "url": "http://google.com",
+      "date": "01/06/2015",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium."
+    },
+    {
+      "title": "Sample News 3",
+      "url": "http://google.com",
+      "date": "01/06/2015",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium."
+    },
+    {
+      "title": "Sample News 4",
+      "url": "http://google.com",
+      "date": "01/06/2015",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium."
+    },
+    {
+      "title": "Sample News 5",
+      "url": "http://google.com",
+      "date": "01/06/2015",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium."
+    },
+    {
+      "title": "Sample News 6",
+      "url": "http://google.com",
+      "date": "01/06/2015",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium."
+    },
+    {
+      "title": "Sample News 7",
+      "url": "http://google.com",
+      "date": "01/06/2015",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium."
+    },
+    {
+      "title": "Sample News 8",
+      "url": "http://google.com",
+      "date": "01/06/2015",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium."
+    },
+    {
+      "title": "Sample News 9",
+      "url": "http://google.com",
+      "date": "01/06/2015",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium."
+    }
   ],
   "faculty": [
     {
       "name": "Dr. Mohammad Hashmi","title": "Assistant Professor, IIIT Delhi",
       "url": "https://www.iiitd.edu.in/~mshashmi/",
       "image": "/assets/img/team/hashmi.jpg",
-      "description": "His interests: RF Electronics with particular emphasis on RF Measurements, RF and Mixed Signal Electronics, PA Design, Modeling and Linearization."
+      "description": "His interests: RF Electronics with particular emphasis on RF Measurements, RF and Mixed Signal Electronics, PA Design, Modeling and Linearization.",
+      "lab": "http://google.com"
     },
     {
       "name": "Dr. Vivek Ashok Bohara", "title": "Assistant Professor, IIIT Delhi",
@@ -29,13 +78,14 @@
       "name": "Dr. Sumit J Darak","title": "Assistant Professor, IIIT Delhi",
       "url": "http://faculty.iiitd.ac.in/~sumit/",
       "image": "/assets/img/team/sumit.bmp",
-      "description": "His interests: Application of machine learning algorithms and decision making policies for various wireless communication applications such as D2D communications, RF energy harvesting, centralized and decentralized cognitive radio networks etc." 
+      "description": "His interests: Application of machine learning algorithms and decision making policies for various wireless communication applications such as D2D communications, RF energy harvesting, centralized and decentralized cognitive radio networks etc." ,
+      "lab": "http://google.com"
     },
     {
       "name": "Dr. Anubha Gupta","title": "Associate Professor, IIIT Delhi",
       "url": "https://www.iiitd.edu.in/~anubha/",
       "image": "/assets/img/team/anubha.jpg",
-      "description": "Her interests: Signal modeling, multiresolution/ multiscale signal processing and applications, Wavelet Transform: Design and Applications, Biomedical Signal Processing: neuronal modeling,ECG, and EEG signal processing, Biomedical Image processing: microscopic image analysis(cancer research), EEG and fMRI signal processing, MRI image processing, Statistical SignalProcessing"
+      "description": "Her interests: Signal modeling, multiresolution/ multiscale signal processing and applications, Wavelet Transform: Design and Applications, Biomedical Signal Processing: neuronal modeling,ECG, and EEG signal processing, Biomedical Image processing: microscopic image analysis"
     }
   ],
   "students": [
