@@ -81,6 +81,7 @@
           pauseOnHover: false
         }
       );
-     });
+    });
+    $("#loading").fadeOut(500);
   });
 })(jQuery);
