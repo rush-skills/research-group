@@ -48,7 +48,7 @@
         lab: {
           html: function(params){
             if(this.lab)
-              return "<a class=\"btn btn-info lab-button\" href=\"" + this.lab + "\">LAB</a>";
+              return "<a class=\"btn btn-info lab-button\" href=\"" + this.lab.url + "\">" +this.lab.name + "</a>";
             else
               return "";
 

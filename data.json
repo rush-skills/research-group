@@ -66,7 +66,10 @@
       "url": "https://www.iiitd.edu.in/~mshashmi/",
       "image": "assets/img/team/hashmi.jpg",
       "description": "His interests: RF Electronics with particular emphasis on RF Measurements, RF and Mixed Signal Electronics, PA Design, Modeling and Linearization.",
-      "lab": "http://google.com"
+      "lab": {
+        "name": "XYZ Lab",
+        "url":"http://google.com"
+      }
     },
     {
       "name": "Dr. Vivek Ashok Bohara", "title": "Assistant Professor, IIIT Delhi",
@@ -79,7 +82,10 @@
       "url": "http://faculty.iiitd.ac.in/~sumit/",
       "image": "assets/img/team/sumit.bmp",
       "description": "His interests: Application of machine learning algorithms and decision making policies for various wireless communication applications such as D2D communications, RF energy harvesting, centralized and decentralized cognitive radio networks etc." ,
-      "lab": "http://google.com"
+      "lab": {
+        "name": "ABC Lab",
+        "url":"http://google.com"
+      }
     },
     {
       "name": "Dr. Anubha Gupta","title": "Associate Professor, IIIT Delhi",
