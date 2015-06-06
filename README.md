@@ -40,7 +40,7 @@ Image Credit: https://viralatom.com/wp-content/uploads/2015/03/electronics.jpg
   - description: is the description of the project
   - url: the url of the project, if any
 
--You also need to change the email in contact.html from 'ankur13019@iiitd.ac.in' to the concerned email for email notifications when the form is filled up(will need to confirm it. will be usually delivered to spam). Uses formspree.io for the same.
+- You also need to change the email in contact.html from 'ankur13019@iiitd.ac.in' to the concerned email for email notifications when the form is filled up(will need to confirm it. will be usually delivered to spam). Uses formspree.io for the same.
 
 ##Contribution and Usage Guidelines
 To contribute, suggest a feature in issues and feel free to implement it and send me a PR.
