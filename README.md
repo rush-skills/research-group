@@ -58,5 +58,5 @@ the custom.js file does most of the magic in this template.
 
 ##TODO:
 - Can this be made into a one page theme with sections shown/hidden instead of so many pages, as the data otherwise is the same.
-- SEO?
+- feed the head with some awesome meta tags maybe?
 - Add google maps, or perhaps a gmaps generated image with a link to google maps(integrating google maps makes it quite slow IMHO, Indian net)
