@@ -64,27 +64,27 @@
     {
       "name": "Dr. Mohammad Hashmi","title": "Assistant Professor, IIIT Delhi",
       "url": "https://www.iiitd.edu.in/~mshashmi/",
-      "image": "/assets/img/team/hashmi.jpg",
+      "image": "assets/img/team/hashmi.jpg",
       "description": "His interests: RF Electronics with particular emphasis on RF Measurements, RF and Mixed Signal Electronics, PA Design, Modeling and Linearization.",
       "lab": "http://google.com"
     },
     {
       "name": "Dr. Vivek Ashok Bohara", "title": "Assistant Professor, IIIT Delhi",
       "url": "https://sites.google.com/a/iiitd.ac.in/vivek-ashok-bohara/",
-      "image": "/assets/img/team/vivek.jpg",
+      "image": "assets/img/team/vivek.jpg",
       "description": "His research interests are wireless communication, cognitive and cooperative radios as well as wide band power amplifiers"
     },
     {
       "name": "Dr. Sumit J Darak","title": "Assistant Professor, IIIT Delhi",
       "url": "http://faculty.iiitd.ac.in/~sumit/",
-      "image": "/assets/img/team/sumit.bmp",
+      "image": "assets/img/team/sumit.bmp",
       "description": "His interests: Application of machine learning algorithms and decision making policies for various wireless communication applications such as D2D communications, RF energy harvesting, centralized and decentralized cognitive radio networks etc." ,
       "lab": "http://google.com"
     },
     {
       "name": "Dr. Anubha Gupta","title": "Associate Professor, IIIT Delhi",
       "url": "https://www.iiitd.edu.in/~anubha/",
-      "image": "/assets/img/team/anubha.jpg",
+      "image": "assets/img/team/anubha.jpg",
       "description": "Her interests: Signal modeling, multiresolution/ multiscale signal processing and applications, Wavelet Transform: Design and Applications, Biomedical Signal Processing: neuronal modeling,ECG, and EEG signal processing, Biomedical Image processing: microscopic image analysis"
     }
   ],
